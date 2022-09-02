@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Crypter {
+public class Crypter2 {
     public static void main(String[] args) {
         int x = Integer.parseInt(JOptionPane.showInputDialog("Input a number"));
         int y = Integer.parseInt(JOptionPane.showInputDialog("Input a key"));
@@ -9,7 +9,7 @@ public class Crypter {
 
     }
     static int Encrypt(int x,int y){
-        int z = x^y;
+        int z =+ x^y;
         return z;
     }
 }
