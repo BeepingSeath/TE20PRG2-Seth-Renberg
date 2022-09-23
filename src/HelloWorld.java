@@ -18,6 +18,6 @@ public class HelloWorld {
         for(int i = 0; i<ee; i++){
             Output += "ee";
         }
-        System.out.println(Output);
+        System.out.println(ee);
     }
 }
