@@ -12,8 +12,5 @@ public class Crypter2GUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-        progressBar = new JProgressBar(0, task.getLengthOfTask());
-        progressBar.setValue(0);
-        progressBar.setStringPainted(true);
     }
 }
